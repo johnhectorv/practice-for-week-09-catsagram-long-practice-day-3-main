@@ -65,7 +65,7 @@ const vote = e => {
     } else {
         newScore = parseInt(newScore) - 1;
     }
-    
+
     // update score
     updateScore(newScore);
 };
@@ -79,3 +79,7 @@ const updateScore = (newScore) => {
     const score = document.querySelector('.score');
     score.innerText = newScore;
 };
+
+upvoteBtn.addEventListener("click", () => {
+    
+})
